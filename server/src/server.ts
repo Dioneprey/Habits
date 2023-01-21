@@ -10,5 +10,5 @@ app.register(appRoutes)
 app.listen({
     port: 8080
 }).then(() => {
-    console.log('HTTP Server running')
+    console.log('HTTP Server running in port 8080')
 })
